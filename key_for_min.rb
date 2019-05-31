@@ -34,5 +34,5 @@ def key_for_min_value(name_hash)
       end
     key_name
   else
-    {}  
+  name_hash
 end
