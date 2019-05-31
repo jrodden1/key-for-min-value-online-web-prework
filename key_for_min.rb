@@ -28,6 +28,7 @@ def key_for_min_value(name_hash)
            puts "#{potential_num} was added to notThisNumber array"
          else
            min_num = potential_num
+           puts "#{potential_num} was added as the min_num"
          end
          binding.pry
          #do nothing
