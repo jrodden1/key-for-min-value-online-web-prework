@@ -31,7 +31,8 @@ def key_for_min_value(name_hash)
 
          #do nothing
        end
-        #else, skip this number
+      else
+        puts "its not this number (#{potential_num})"  #else, skip this number
       end
 
     end
