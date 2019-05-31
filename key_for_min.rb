@@ -25,6 +25,7 @@ def key_for_min_value(name_hash)
 
          if potential_num > valuesArr[next_num]
            notThisNumber << potential_num
+           puts "#{potential_num} was added to notThisNumber array"
          else
            min_num = potential_num
          end
