@@ -41,5 +41,7 @@ def key_for_min_value(name_hash)
   else
     key_name = name_hash
   end
+  puts key_name
+  binding.pry 
   key_name
 end
