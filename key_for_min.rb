@@ -23,7 +23,7 @@ def key_for_min_value(name_hash)
         valuesArr.each.with_index do |num, index|
         next_num = index + 1
 
-         if potential_num > next_num
+         if potential_num > valuesArr[next_num]
            notThisNumber << potential_num
          else
            min_num = potential_num
