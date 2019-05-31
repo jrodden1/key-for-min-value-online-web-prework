@@ -30,8 +30,9 @@ def key_for_min_value(name_hash)
          else
            min_num = potential_num
          end
-        binding.pry
-        end
+       else
+         #do nothing
+       end
         #else, skip this number
       end
     end
