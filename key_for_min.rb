@@ -6,21 +6,26 @@ require 'pry'
 def key_for_min_value(name_hash)
   if name_hash != {}
     valuesArr = []
-
+    binding.pry
   #This is going to dump all my numbers into an array that I'll iterate over
     name_hash.each do |name, num|
       valuesArr << num
     end
+    binding.pry
 
     potential_num = nil
     min_num = nil
     notThisNumber = []
+    binding.pry
+
     valuesArr.each.with_index do |num, index|
       potential_num = num
+      binding.pry
       if notThisNumber.include?(potential_num) == false
         valuesArray.each.with_index do |num, index|
         next_num = index + 1
         potential_num > next_num ? notThisNumber << potential_num : min_num = potential_num
+        binding.pry 
         end
         #else, skip this number
       end
