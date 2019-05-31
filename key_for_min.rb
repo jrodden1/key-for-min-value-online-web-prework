@@ -6,7 +6,7 @@ require 'pry'
 def key_for_min_value(name_hash)
   min_num = 0
   output = name_hash
-  
+
   if name_hash != {}
     valuesArr = []
   #This is going to dump all my numbers into an array that I'll iterate over
