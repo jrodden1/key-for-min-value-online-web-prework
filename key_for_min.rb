@@ -44,7 +44,7 @@ def key_for_min_value(name_hash)
           puts key_name
         end
       end
-      binding.pry 
+      binding.pry
   else
     key_name = nil
   end
