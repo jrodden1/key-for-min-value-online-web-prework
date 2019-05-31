@@ -40,11 +40,12 @@ def key_for_min_value(name_hash)
       name_hash.each do |name, num|
         if num == min_num
           key_name = name
+          puts key_name
         end
       end
 
   else
-    key_name = name_hash
+    key_name = nil
   end
   puts key_name
 
