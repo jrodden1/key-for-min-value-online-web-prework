@@ -40,6 +40,7 @@ def key_for_min_value(name_hash)
     binding.pry 
     key_name
   else
-    name_hash
+    key_name = name_hash
   end
+  key_name
 end
