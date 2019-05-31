@@ -22,6 +22,7 @@ def key_for_min_value(name_hash)
       potential_num = num
       binding.pry
       if notThisNumber.include?(potential_num) == false
+        binding.pry
         valuesArray.each.with_index do |num, index|
         next_num = index + 1
         potential_num > next_num ? notThisNumber << potential_num : min_num = potential_num
@@ -42,6 +43,6 @@ def key_for_min_value(name_hash)
     key_name = name_hash
   end
   puts key_name
-  binding.pry 
+  binding.pry
   key_name
 end
