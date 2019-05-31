@@ -17,23 +17,23 @@ def key_for_min_value(name_hash)
 
     valuesArr.each.with_index do |num, index|
       potential_num = num
-      binding.pry
+       
       if notThisNumber.include?(potential_num) == false
-        binding.pry
+         
         valuesArr.each.with_index do |num, index|
         next_num = index + 1
-        binding.pry
+         
          if potential_num > next_num
            notThisNumber << potential_num
          else
            min_num = potential_num
          end
-        binding.pry
+         
          #do nothing
        end
         #else, skip this number
       end
-      binding.pry
+       
     end
 
     key_name = ""
@@ -42,11 +42,11 @@ def key_for_min_value(name_hash)
           key_name = name
         end
       end
-    binding.pry
+     
   else
     key_name = name_hash
   end
   puts key_name
-  binding.pry
+   
   key_name
 end
