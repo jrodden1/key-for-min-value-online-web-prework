@@ -32,6 +32,7 @@ def key_for_min_value(name_hash)
        end
         #else, skip this number
       end
+      binding.pry
     end
 
     key_name = ""
