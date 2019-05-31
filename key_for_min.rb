@@ -11,8 +11,8 @@ def key_for_min_value(name_hash)
       valuesArr << num
     end
 
-    potential_num = nil
-    min_num = nil
+    potential_num
+    min_num
     notThisNumber = []
 
     valuesArr.each.with_index do |num, index|
