@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
 
 #This is going to dump all my numbers into an array that I'll iterate over
   name_hash.each do |name, num|
-    valuesArr << num 
+    valuesArr << num
   end
 
   potential_num = nil
@@ -20,7 +20,7 @@ def key_for_min_value(name_hash)
       valuesArray.each.with_index do |num, index|
       next_num = index + 1
       potential_num > next_num ? notThisNumber << potential_num : min_num = potential_num
-      #else, skip this number 
+      #else, skip this number
     end
   end
 
