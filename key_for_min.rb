@@ -20,15 +20,16 @@ def key_for_min_value(name_hash)
       valuesArray.each.with_index do |num, index|
       next_num = index + 1
       potential_num > next_num ? notThisNumber << potential_num : min_num = potential_num
+      end
       #else, skip this number
     end
   end
 
-key_name = ""
-  name_hash.each do |name, num|
-    if num == min_num
-      key_name = name
+  key_name = ""
+    name_hash.each do |name, num|
+      if num == min_num
+        key_name = name
+      end
     end
-  end
-key_name
+  key_name
 end
